@@ -17,7 +17,7 @@
 .hero-img h1 {
     text-align: center;
     margin: auto;
-    padding: 45vh;
+    padding: 37vh;
     font-size: 2.5rem;
 }
 
@@ -31,6 +31,7 @@ nav {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  opacity: 0;
 }
 
 @media screen and (max-width: 900px) {
@@ -70,7 +71,6 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
 }
 
 
