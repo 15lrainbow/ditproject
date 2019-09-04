@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-img h1 {
@@ -19,6 +20,8 @@
     margin: auto;
     padding: 37vh;
     font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -32,6 +35,7 @@ nav {
   padding-top: 1rem;
   padding-bottom: 1rem;
   opacity: 0;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 @media screen and (max-width: 900px) {
@@ -44,6 +48,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    color: white;
 }
 
 .nav-1 {
@@ -87,6 +92,7 @@ header {
   padding-left: 3rem;
   padding-right: 3rem;
   margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .text-1a {
@@ -115,6 +121,7 @@ header {
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+  box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .text-2 {
@@ -129,6 +136,7 @@ header {
   padding-left: 3rem;
   padding-right: 3rem;
   margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
 }
 
 @media screen and (max-width: 900px) {
@@ -154,4 +162,5 @@ header {
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+  box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
