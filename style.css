@@ -1,8 +1,8 @@
-*{
+ *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
@@ -27,7 +27,7 @@
 
 nav {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: 1em;
   align-items: center;
@@ -48,7 +48,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #dbd7d7;
+}
+
+nav a:hover {
+  color: white;
 }
 
 .nav-1 {
@@ -63,9 +67,6 @@ nav a {
   grid-column: 3;
 }
 
-.nav-4 {
-  grid-column: 4;
-}
 
 .nav-links {
   font-size: 1.2em;
@@ -87,8 +88,8 @@ header {
   grid-gap: 6rem;
   align-items: center;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   padding-left: 3rem;
   padding-right: 3rem;
   margin: 0 auto;
