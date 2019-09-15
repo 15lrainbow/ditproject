@@ -165,3 +165,23 @@ header {
   margin: 0;
   box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* All CSS from this point on is part of the ZapWorks page */
+
+.hero-img2 {
+    background-image: url(Images/placeholder_hero2);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-img2 h1 {
+    text-align: center;
+    margin: auto;
+    padding: 37vh;
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}

@@ -12,17 +12,33 @@
 
   <header>
     <nav id="nav-bar">
-      </div>
       <div class="nav-1">
-      <a href="#" class="nav-links">ZapWorks</a>
+      <a href="zapworks.html" class="nav-links">ZapWorks</a>
       </div>
       <div class="nav-2">
       <a href="#" class="nav-links">Home</a>
       </div>
       <div class="nav-3">
       <a href="#" class="nav-links">Learn the Basics</a>
+      </div>
     </nav>
   </header>
 
+  <section class="hero-img2">
+    <h1>Augmented <br> Reality</h1>
+  </section>
+
+  <script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 790 || document.documentElement.scrollTop > 790) {
+      document.getElementById("nav-bar").style.opacity = "1";
+      document.getElementById("nav-bar").style.backgroundColor = "#EC4733";
+    } else {
+      document.getElementById("nav-bar").style.opacity = "0";
+    }
+  }
+  </script>
 </body>
 </html>
